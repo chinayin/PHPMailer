@@ -162,6 +162,7 @@ class SMTP
         'Amazon_SES' => '/[\d]{3} Ok (.*)/',
         'SendGrid' => '/[\d]{3} Ok: queued as (.*)/',
         'CampaignMonitor' => '/[\d]{3} 2.0.0 OK:([a-zA-Z\d]{48})/',
+        'Aliyun_DM' => '/[\d]{3} Data Ok: queued as freedom ###envid=(.*)/',
     ];
 
     /**
